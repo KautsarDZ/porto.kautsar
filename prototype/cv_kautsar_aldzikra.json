@@ -1,0 +1,140 @@
+{
+  "header": {
+    "full_name": "Kautsar Aldzikra Harlan",
+    "location": "Cakung, East Jakarta",
+    "phone": "+6289663940508",
+    "email": "kautsar.al.dzikra.harlan.kerja@gmail.com",
+    "linkedin": "https://linkedin.com/in/kautsar-aldzikra-harlan"
+  },
+  "summary": "Telecommunication Engineering graduate with experience in Network Monitoring, VSAT Operations, LAN Troubleshooting, Linux Server Administration, MikroTik Configuration, Incident Analysis, Technical Support, and Operational Monitoring. Strong analytical and problem-solving skills developed through telecommunication internships, homelab projects, and business operations management. Seeking opportunities as Network Operations Center (NOC), IT Support, or Network Support Engineer.",
+  "target_roles": [
+    "Network Operations Center (NOC)",
+    "IT Support",
+    "Network Support Engineer"
+  ],
+  "technical_skills": {
+    "networking": [
+      "Network Monitoring",
+      "VSAT Operation",
+      "LAN Troubleshooting",
+      "Routing & Switching",
+      "VLAN",
+      "DHCP",
+      "NAT",
+      "Firewall",
+      "QoS",
+      "VPN",
+      "TCP/IP"
+    ],
+    "systems_and_tools": [
+      "MikroTik (Winbox)",
+      "Linux (Ubuntu)",
+      "SSH",
+      "PuTTY",
+      "Wireshark",
+      "Basic Router Configuration",
+      "Excel/Office"
+    ],
+    "technical_support": [
+      "CCTV Installation & Configuration",
+      "Hardware & Software Troubleshooting",
+      "Remote Support"
+    ]
+  },
+  "experience": [
+    {
+      "company": "CV Mandha Sejati",
+      "role": "Operations Support",
+      "business_unit": "F&B Retail Business (Madha Geprek)",
+      "period": "January 2025 - July 2026",
+      "is_current": false,
+      "responsibilities": [
+        "Coordinated daily outlet operations and workforce activities to ensure smooth business continuity during high-demand periods.",
+        "Developed Microsoft Excel-based reporting tools and dashboards to automate revenue calculations and monitor outlet performance.",
+        "Managed inventory planning, procurement, and operational reporting to support business performance and cost control.",
+        "Assisted in installing and configuring CCTV systems, Wi-Fi routers, and provided first-level troubleshooting for computers and network connectivity.",
+        "Collaborated with the business owner to improve operational workflows and implement process improvements across business operations."
+      ]
+    },
+    {
+      "company": "PT Pasifik Satelit Nusantara (PSN)",
+      "role": "Satellite Control Center Intern",
+      "period": "August 2023 - December 2023",
+      "is_current": false,
+      "responsibilities": [
+        "Monitored real-time VSAT network performance and satellite connectivity to maintain service availability in accordance with SLA targets.",
+        "Performed Tracking, Telemetry & Command (TT&C) operations on Mobile VSAT systems to ensure stable satellite communications.",
+        "Conducted first-level incident analysis and troubleshooting before escalating complex issues to Tier-2 Network Engineers.",
+        "Assisted in developing Standard Operating Procedures (SOP) for LNA replacement, improving maintenance efficiency by 20%.",
+        "Supported engineering teams in planning and deploying new VSAT antenna sites in Cikarang and Medan."
+      ]
+    },
+    {
+      "company": "PT Telekomunikasi Seluler (Telkomsel)",
+      "role": "Network Engineer Intern",
+      "period": "January 2020 - February 2020",
+      "is_current": false,
+      "responsibilities": [
+        "Assisted in network deployment, internet installation, and basic network topology implementation for commercial office environments.",
+        "Installed and configured MikroTik routers and network switches to support LAN connectivity and network performance.",
+        "Performed network monitoring and first-level troubleshooting to identify and resolve connectivity issues.",
+        "Supported drive test activities and assisted in analyzing cellular signal quality and network performance."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Politeknik Negeri Jakarta (PNJ)",
+      "degree": "Diploma (D3) in Electrical Engineering - Telecommunication",
+      "period": "August 2021 - August 2024"
+    },
+    {
+      "institution": "SMK Dinamika Pembangunan 1 Jakarta",
+      "degree": "Vocational High School Major in Computer and Network Engineering (TKJ)",
+      "period": "June 2018 - June 2021"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Network Addressing and Basic Troubleshooting",
+      "issuer": "Cisco Networking Academy",
+      "issue_date": "2026-07-26",
+      "expiry_date": null
+    },
+    {
+      "name": "Google IT Support",
+      "issuer": "Google Career Certificates by Coursera",
+      "issue_date": "2026-07-23",
+      "expiry_date": null
+    },
+    {
+      "name": "Certified Radio RF Planner - BNSP",
+      "issuer": "LSP Telekomunikasi Digital Indonesia",
+      "issue_date": "2024-09-01",
+      "expiry_date": "2027-09-01"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Linux VPS & Network Administration",
+      "tech_stack": [
+        "Ubuntu Server",
+        "SSH",
+        "Winbox",
+        "Port Forwarding",
+        "Firewall",
+        "Service Monitoring"
+      ],
+      "description": "Deployed and managed an Ubuntu-based VPS for remote administration, network service monitoring, and connectivity troubleshooting. Configured SSH remote access, firewall rules, and port forwarding to support remote management."
+    },
+    {
+      "title": "Network Homelab & Simulation",
+      "tech_stack": [
+        "MikroTik",
+        "Cisco Packet Tracer",
+        "VMware"
+      ],
+      "description": "Built networking lab environments to practice VLAN, DHCP, NAT, subnetting, static routing, and LAN troubleshooting. Simulated network scenarios to strengthen troubleshooting and network configuration skills."
+    }
+  ]
+}

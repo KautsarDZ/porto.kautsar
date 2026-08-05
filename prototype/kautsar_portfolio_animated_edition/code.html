@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kautsar Aldzikra Harlan | Network Engineer &amp; IT Support</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-secondary-fixed-variant": "#3d4759", "primary-container": "#1a365d", "on-primary-fixed-variant": "#2d476f", secondary: "#555f71", "on-surface-variant": "#43474e", "surface-dim": "#d5dbdf", "secondary-container": "#d6e0f6", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#77d6d3", error: "#ba1a1a", "on-error-container": "#93000a", "surface-container-high": "#e4e9ee", "surface-variant": "#dee3e8", tertiary: "#002625", "on-primary-container": "#86a0cd", "text-secondary": "#4A5568", "outline-variant": "#c4c6cf", "on-background": "#171c20", "on-primary": "#ffffff", "on-tertiary-fixed-variant": "#00504e", "border-subtle": "#E2E8F0", outline: "#74777f", "surface-container": "#e9eef3", "inverse-primary": "#adc7f7", "tertiary-container": "#003d3c", "on-primary-fixed": "#001b3c", "surface-bright": "#f5faff", "inverse-surface": "#2c3135", primary: "#002045", "surface-container-highest": "#dee3e8", "surface-container-low": "#eff4f9", "link-interactive": "#2B6CB0", "surface-tint": "#455f88", "surface-container-lowest": "#ffffff", "on-tertiary-container": "#4cadab", "primary-fixed": "#d6e3ff", "on-surface": "#171c20", "secondary-fixed-dim": "#bdc7dc", background: "#f5faff", "on-secondary-container": "#596376", "error-container": "#ffdad6", "tertiary-fixed": "#94f2f0", surface: "#f5faff", "text-primary": "#1A202C", "on-error": "#ffffff", "on-secondary": "#ffffff", "inverse-on-surface": "#ecf1f6", "on-secondary-fixed": "#121c2c", "on-tertiary-fixed": "#00201f", "primary-fixed-dim": "#adc7f7", "secondary-fixed": "#d9e3f9", "brand-navy": "#1A365D", "brand-slate": "#2D3748", "brand-teal": "#319795"}, borderRadius: {DEFAULT: "0.5rem", lg: "1rem", xl: "1.5rem", full: "9999px"}, spacing: {"container-max": "1140px", md: "16px", gutter: "24px", "margin-mobile": "16px", lg: "24px", sm: "8px", xxl: "80px", unit: "4px", xl: "48px", xs: "4px"}, fontFamily: {display: ["Be Vietnam Pro"], "label-sm": ["Inter"], "headline-lg-mobile": ["Inter"], "body-lg": ["Inter"], "headline-md": ["Inter"], "headline-sm": ["Inter"], "body-md": ["Inter"], "label-md": ["Inter"], "headline-lg": ["Inter"], headline: ["Be Vietnam Pro"], body: ["Inter"], label: ["Inter"]}, fontSize: {display: ["48px", {lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "700"}], "label-sm": ["12px", {lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "600"}], "headline-lg-mobile": ["28px", {lineHeight: "36px", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "28px", fontWeight: "400"}], "headline-md": ["24px", {lineHeight: "32px", fontWeight: "600"}], "headline-sm": ["20px", {lineHeight: "28px", fontWeight: "600"}], "body-md": ["16px", {lineHeight: "24px", fontWeight: "400"}], "label-md": ["14px", {lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "500"}], "headline-lg": ["32px", {lineHeight: "40px", fontWeight: "600"}]}}}};</script>
+<style>
+        body {
+            background-color: #EDF2F7; /* Level 0 Background */
+            color: #1A202C;
+        }
+        
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .tech-node::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #319795; /* Accent Teal */
+        }
+        
+        .timeline-line {
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background-color: #2D3748; /* Slate Blue */
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            box-shadow: 0 10px 25px -5px rgba(26, 54, 93, 0.1), 0 8px 10px -6px rgba(26, 54, 93, 0.1);
+            border-color: #94f2f0;
+            transform: translateY(-4px);
+        }
+        
+        /* Net grid pattern for hero */
+        .bg-grid-pattern {
+            background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+                              linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        /* Shimmer Effect for Buttons */
+        .btn-shimmer {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-shimmer::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+            transform: skewX(-20deg);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-shimmer:hover::after {
+            animation: shimmer 1s infinite;
+        }
+        
+        @keyframes shimmer {
+            100% { left: 200%; }
+        }
+
+        /* Profile Photo Highlight */
+        .profile-highlight {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .profile-highlight:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(49, 151, 149, 0.3);
+            border-color: #319795;
+        }
+
+        /* Badge Tilt Hover */
+        .badge-tilt {
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .badge-tilt:hover {
+            transform: translateY(-5px) rotate(2deg);
+        }
+        
+        .smooth-scroll-container {
+            scrollbar-width: thin;
+            scrollbar-color: #319795 #E2E8F0;
+            scroll-behavior: smooth;
+        }
+        
+        .smooth-scroll-container::-webkit-scrollbar {
+            height: 6px;
+        }
+        
+        .smooth-scroll-container::-webkit-scrollbar-track {
+            background: #E2E8F0;
+            border-radius: 4px;
+        }
+        
+        .smooth-scroll-container::-webkit-scrollbar-thumb {
+            background-color: #319795;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased flex flex-col min-h-screen">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 right-0 w-full z-50 flex justify-between items-center px-6 md:px-8 py-md max-w-[1440px] mx-auto bg-surface border-b border-border-subtle shadow-sm lg:shadow-none bg-surface-container-lowest transition-all duration-300">
+<div class="font-display text-body-lg font-bold tracking-tighter text-primary hover:text-brand-teal transition-colors duration-300 cursor-pointer">
+            KAUTSARDZ</div>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex gap-lg items-center">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md transition-all duration-300 hover:text-brand-teal hover:border-brand-teal" href="#hero">Hero</a>
+<a class="text-text-secondary font-medium hover:text-primary transition-all duration-300 font-label-md text-label-md hover:scale-105" href="#skills">Skills</a>
+<a class="text-text-secondary font-medium hover:text-primary transition-all duration-300 font-label-md text-label-md hover:scale-105" href="#experience">Experience</a>
+<a class="text-text-secondary font-medium hover:text-primary transition-all duration-300 font-label-md text-label-md hover:scale-105" href="#education">Education</a>
+<a class="text-text-secondary font-medium hover:text-primary transition-all duration-300 font-label-md text-label-md hover:scale-105" href="#projects">Projects</a>
+<a class="text-text-secondary font-medium hover:text-primary transition-all duration-300 font-label-md text-label-md hover:scale-105" href="#contact">Contact</a>
+</nav>
+<a class="hidden md:inline-flex bg-brand-navy text-on-primary px-lg py-sm rounded transition-all duration-300 hover:bg-opacity-90 font-label-md text-label-md scale-95 active:opacity-80 btn-shimmer hover:-translate-y-0.5 hover:shadow-lg" href="#contact">
+            Download CV
+        </a>
+<!-- Mobile Menu Button -->
+<button class="md:hidden text-primary p-sm hover:bg-surface-container rounded-full transition-colors duration-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-grow pt-24 pb-xxl px-6 md:px-8 max-w-[1440px] mx-auto w-full">
+<!-- Hero Section -->
+<section class="relative pt-lg pb-lg mb-xxl rounded-lg overflow-hidden border border-border-subtle bg-surface fade-in-up bg-surface-container-lowest" id="hero">
+<div class="relative z-10 flex flex-col items-center px-lg md:px-xl py-lg w-full mx-auto md:flex-row justify-between gap-xl">
+<div class="flex flex-col items-start max-w-3xl">
+<span class="inline-block px-3 py-1 bg-surface-container border border-border-subtle rounded-full font-label-sm text-label-sm text-brand-slate mb-lg uppercase tracking-wider hover:bg-white transition-colors duration-300 cursor-default">
+<span class="inline-block w-2 h-2 rounded-full bg-brand-teal mr-2 animate-pulse"></span> System Online
+                </span>
+<h1 class="font-display text-display text-primary mb-sm">
+                    Kautsar Aldzikra Harlan
+                </h1>
+<h2 class="font-headline-md text-headline-md text-brand-slate mb-xl border-l-4 border-brand-teal pl-md hover:border-l-8 transition-all duration-300 cursor-default">
+                    Network Engineer | IT Support | NOC
+                </h2>
+<div class="flex flex-wrap gap-md">
+<a class="bg-brand-navy text-on-primary px-lg py-3 rounded font-label-md text-label-md hover:bg-opacity-90 transition-all duration-300 flex items-center gap-2 btn-shimmer hover:-translate-y-1 hover:shadow-lg" href="#experience">
+                        View My Work
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform duration-300" style="font-size: 18px;">arrow_forward</span>
+</a>
+<a class="bg-transparent border border-brand-slate text-brand-slate px-lg py-3 rounded font-label-md text-label-md hover:border-brand-teal hover:text-brand-teal transition-all duration-300 hover:-translate-y-1" href="#contact">
+                        Contact Info
+                    </a>
+</div>
+</div>
+<div class="flex-shrink-0"><img alt="Kautsar Aldzikra Harlan" class="w-[200px] md:w-[250px] aspect-[3/4] object-cover rounded-xl shadow-sm border border-border-subtle profile-highlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf-wQGv_IuVgfq54F2OF3psw_LAlfTf3BsCqEUzFkPPYl4iGw5RwFExbTG3zuGgYpCIuUY8IT4bBaTb4FbB1nRKto8rHpp4HrPeiD9RYRSJlNc38LL-uCuAoPMP2NDaa2yNVa5kV6cyCx8Dzm2k0c5UTkLaJwgfL_xcPh14Zb23RySCS_ZDC8U93AHf-U90LDpFZYnlru-2nC4TE9rhc5lfr_Anl9KOXAg8XMUqXFDdlBqvdahdj4oFH3eGEpwo8lQKOQtHk1SsUzLkWY"/></div></div>
+</section>
+<!-- About/Summary Section -->
+<section class="mb-xxl fade-in-up" id="about">
+<div class="bg-surface border border-border-subtle rounded-lg p-lg md:p-xl shadow-sm card-hover bg-surface-container-lowest">
+<div class="flex items-center gap-sm mb-lg"><span class="material-symbols-outlined text-brand-teal">terminal</span><h3 class="font-headline-sm text-headline-sm text-primary">System Overview</h3></div>
+<p class="font-body-lg text-body-lg text-text-secondary leading-relaxed max-w-full mt-md">
+                    Telecommunication Engineering graduate with experience in Network Monitoring, VSAT Operations, LAN Troubleshooting, Linux Server Administration, MikroTik Configuration, Incident Analysis, Technical Support, and Operational Monitoring. Strong analytical and problem-solving skills developed through telecommunication internships, homelab projects, and business operations management. Seeking opportunities as Network Operations Center (NOC), IT Support, or Network Support Engineer.
+                </p>
+<div class="mt-lg pt-lg border-t border-border-subtle flex flex-wrap gap-sm items-center">
+<span class="font-label-sm text-label-sm text-brand-slate uppercase bg-surface-container px-3 py-1 border border-border-subtle rounded hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Target: NOC</span>
+<span class="font-label-sm text-label-sm text-brand-slate uppercase bg-surface-container px-3 py-1 border border-border-subtle rounded hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Target: IT Support</span>
+<span class="font-label-sm text-label-sm text-brand-slate uppercase bg-surface-container px-3 py-1 border border-border-subtle rounded hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Target: Network Support</span>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="fade-in-up" id="skills">
+<h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg">
+<span class="w-8 h-1 bg-brand-teal"></span> Technical Capabilities
+            </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-lg items-stretch">
+<!-- Networking -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover flex flex-col h-full bg-surface-container-lowest">
+<div class="flex items-center gap-md mb-lg border-b border-border-subtle pb-sm min-h-[64px]">
+<span class="material-symbols-outlined text-brand-teal" style='font-variation-settings: "FILL" 1;'>router</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Networking</h4>
+</div>
+<div class="flex flex-wrap gap-sm mt-auto">
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Monitoring</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">VSAT</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">LAN</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Routing/Switching</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">VLAN</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">TCP/IP</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Firewall</span>
+</div>
+</div>
+<!-- Systems & Tools -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover flex flex-col h-full bg-surface-container-lowest">
+<div class="flex items-center gap-md mb-lg border-b border-border-subtle pb-sm min-h-[64px]">
+<span class="material-symbols-outlined text-brand-teal" style='font-variation-settings: "FILL" 1;'>dns</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Systems &amp; Tools</h4>
+</div>
+<div class="flex flex-wrap gap-sm mt-auto">
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">MikroTik</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Linux (Ubuntu)</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">SSH/PuTTY</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Wireshark</span>
+</div>
+</div>
+<!-- Technical Support -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover flex flex-col h-full bg-surface-container-lowest">
+<div class="flex items-center gap-md mb-lg border-b border-border-subtle pb-sm min-h-[64px]">
+<span class="material-symbols-outlined text-brand-teal" style='font-variation-settings: "FILL" 1;'>support_agent</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Technical Support</h4>
+</div>
+<div class="flex flex-wrap gap-sm mt-auto">
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">CCTV Install</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">HW/SW Troubleshoot</span>
+<span class="relative pl-4 pr-3 py-1 bg-surface border border-border-subtle rounded font-label-sm text-label-sm uppercase text-brand-slate tech-node bg-surface-container-lowest hover:border-brand-teal transition-colors duration-300 cursor-default">Remote Support</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience Section -->
+<section class="mb-xxl fade-in-up mt-xxl" id="experience">
+<h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg">
+<span class="w-8 h-1 bg-brand-teal"></span> Experience
+            </h3>
+<div class="relative w-full">
+<!-- Experience 1 -->
+<div class="relative mb-xl last:mb-0">
+<div class="top-1 w-4 h-4 rounded-full bg-brand-teal z-10 shadow-[0_0_0_4px_#EDF2F7] hidden"></div>
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover md:p-xl bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row justify-between mb-sm gap-sm md:gap-0">
+<h4 class="font-headline-sm text-headline-sm text-primary">Operations Support</h4>
+<span class="font-label-md text-label-md text-brand-teal font-medium">January 2025 - July 2026</span>
+</div>
+<div class="font-label-md text-label-md text-brand-slate font-medium mb-md uppercase tracking-wide">CV Mandha Sejati</div>
+<ul class="list-disc pl-md text-text-secondary font-body-md text-body-md space-y-2">
+<li class="hover:text-primary transition-colors duration-300">Coordinated daily outlet operations and workforce activities to ensure smooth business continuity during high-demand periods.</li>
+<li class="hover:text-primary transition-colors duration-300">Developed Microsoft Excel-based reporting tools and dashboards to automate revenue calculations and monitor outlet performance.</li>
+<li class="hover:text-primary transition-colors duration-300">Managed inventory planning, procurement, and operational reporting to support business performance and cost control.</li>
+<li class="hover:text-primary transition-colors duration-300">Assisted in installing and configuring CCTV systems, Wi-Fi routers, and provided first-level troubleshooting for computers and network connectivity.</li>
+<li class="hover:text-primary transition-colors duration-300">Collaborated with the business owner to improve operational workflows and implement process improvements across business operations.</li>
+</ul>
+</div>
+</div>
+<!-- Experience 2 -->
+<div class="relative mb-xl last:mb-0">
+<div class="top-1 w-4 h-4 rounded-full bg-brand-slate z-10 shadow-[0_0_0_4px_#EDF2F7] hidden"></div>
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover md:p-xl bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row justify-between mb-sm gap-sm md:gap-0">
+<h4 class="font-headline-sm text-headline-sm text-primary">Satellite Control Center Intern</h4>
+<span class="font-label-md text-label-md text-brand-teal font-medium">August 2023 - December 2023</span>
+</div>
+<div class="font-label-md text-label-md text-brand-slate font-medium mb-md uppercase tracking-wide">PT Pasifik Satelit Nusantara (PSN)</div>
+<ul class="list-disc pl-md text-text-secondary font-body-md text-body-md space-y-2">
+<li class="hover:text-primary transition-colors duration-300">Monitored real-time VSAT network performance and satellite connectivity to maintain service availability in accordance with SLA targets.</li>
+<li class="hover:text-primary transition-colors duration-300">Performed Tracking, Telemetry &amp; Command (TT&amp;C) operations on Mobile VSAT systems to ensure stable satellite communications.</li>
+<li class="hover:text-primary transition-colors duration-300">Conducted first-level incident analysis and troubleshooting before escalating complex issues to Tier-2 Network Engineers.</li>
+<li class="hover:text-primary transition-colors duration-300">Assisted in developing Standard Operating Procedures (SOP) for LNA replacement, improving maintenance efficiency by 20%.</li>
+<li class="hover:text-primary transition-colors duration-300">Supported engineering teams in planning and deploying new VSAT antenna sites in Cikarang and Medan.</li>
+</ul>
+</div>
+</div>
+<!-- Experience 3 -->
+<div class="relative mb-xl last:mb-0">
+<div class="top-1 w-4 h-4 rounded-full bg-brand-slate z-10 shadow-[0_0_0_4px_#EDF2F7] hidden"></div>
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover md:p-xl bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row justify-between mb-sm gap-sm md:gap-0">
+<h4 class="font-headline-sm text-headline-sm text-primary">Network Engineer Intern</h4>
+<span class="font-label-md text-label-md text-brand-teal font-medium">January 2020 - February 2020</span>
+</div>
+<div class="font-label-md text-label-md text-brand-slate font-medium mb-md uppercase tracking-wide">PT Telekomunikasi Seluler (Telkomsel)</div>
+<ul class="list-disc pl-md text-text-secondary font-body-md text-body-md space-y-2">
+<li class="hover:text-primary transition-colors duration-300">Assisted in network deployment, internet installation, and basic network topology implementation for commercial office environments.</li>
+<li class="hover:text-primary transition-colors duration-300">Installed and configured MikroTik routers and network switches to support LAN connectivity and network performance.</li>
+<li class="hover:text-primary transition-colors duration-300">Performed network monitoring and first-level troubleshooting to identify and resolve connectivity issues.</li>
+<li class="hover:text-primary transition-colors duration-300">Supported drive test activities and assisted in analyzing cellular signal quality and network performance.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Education Section -->
+<section class="mb-xxl fade-in-up" id="education">
+<h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg">
+<span class="w-8 h-1 bg-brand-teal"></span> Education
+            </h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg w-full">
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover md:p-xl bg-surface-container-lowest">
+<div class="flex items-start gap-md mb-md">
+<span class="material-symbols-outlined text-brand-teal mt-1 group-hover:scale-110 transition-transform duration-300" style='font-variation-settings: "FILL" 1;'>school</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-xs">Politeknik Negeri Jakarta (PNJ)</h4>
+<div class="font-body-md text-body-md text-text-secondary mb-xs">Diploma (D3) in Electrical Engineering - Telecommunication</div>
+<div class="font-label-sm text-label-sm text-brand-teal uppercase tracking-wide">August 2021 - August 2024</div>
+</div>
+</div>
+</div>
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover md:p-xl bg-surface-container-lowest">
+<div class="flex items-start gap-md mb-md">
+<span class="material-symbols-outlined text-brand-teal mt-1 group-hover:scale-110 transition-transform duration-300" style='font-variation-settings: "FILL" 1;'>school</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-xs">SMK Dinamika Pembangunan 1 Jakarta</h4>
+<div class="font-body-md text-body-md text-text-secondary mb-xs">Vocational High School Major in Computer and Network Engineering (TKJ)</div>
+<div class="font-label-sm text-label-sm text-brand-teal uppercase tracking-wide">June 2018 - June 2021</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="mb-xxl fade-in-up" id="projects">
+<h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg">
+<span class="w-8 h-1 bg-brand-teal"></span> Projects
+            </h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg w-full">
+<!-- Project 1 -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover flex flex-col h-full md:p-xl bg-surface-container-lowest">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-sm">Linux VPS &amp; Network Administration</h4>
+<p class="font-body-md text-body-md text-text-secondary mb-lg flex-grow">Deployed and managed an Ubuntu-based VPS for remote administration, network service monitoring, and connectivity troubleshooting. Configured SSH remote access, firewall rules, and port forwarding to support remote management.</p>
+<div class="flex flex-wrap gap-xs pt-md border-t border-border-subtle">
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Ubuntu Server</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">SSH</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Winbox</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Port Forwarding</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Firewall</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Service Monitoring</span>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover flex flex-col h-full md:p-xl bg-surface-container-lowest">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-sm">Network Homelab &amp; Simulation</h4>
+<p class="font-body-md text-body-md text-text-secondary mb-lg flex-grow">Built networking lab environments to practice VLAN, DHCP, NAT, subnetting, static routing, and LAN troubleshooting. Simulated network scenarios to strengthen troubleshooting and network configuration skills.</p>
+<div class="flex flex-wrap gap-xs pt-md border-t border-border-subtle">
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">MikroTik</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">Cisco Packet Tracer</span>
+<span class="bg-surface-container px-2 py-1 rounded text-brand-slate font-label-sm text-label-sm border border-border-subtle hover:bg-white hover:border-brand-teal transition-all duration-300 cursor-default">VMware</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<section class="mb-xxl fade-in-up" id="certifications"><h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg"><span class="w-8 h-1 bg-brand-teal"></span> Certifications</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-lg w-full"><!-- Certification 1 -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover bg-surface-container-lowest flex flex-row gap-md items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-brand-navy rounded flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform duration-300">
+<img alt="Cisco Logo" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiRNZEskFL5t-4Qkubi4KkDO7GH_cxGNxsDB2rdkBt38f3dMMd6NuqTAI6YVfJ5QPL3eTdObFUf_otK2bzeXirO9Vx4WdtOq_I2jiF5S_22wOAUzY7uGzCBZrhHRVb98tdO81EKRSYKLHMRsQY1UX3oPaozGGsIix56U7QPhE5u8yWmYMyIFE_vJCs4Wxxh4bmrKblQQgkHZ3aOThPCjD3mTT9YFzXjVLHQDOAOagSFByU7QcnenHc0jt0wwlNUZYGMasyqCeyb17Smrg"/>
+</div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-body-md font-bold text-primary mb-xs">Network Addressing and Basic Troubleshooting</h4>
+<div class="text-text-secondary font-label-md text-label-sm">Cisco Networking Academy</div>
+<div class="text-text-secondary font-label-sm text-label-sm">Issued Jul 2023</div>
+<div class="text-text-secondary font-label-sm text-label-sm mt-1 opacity-70">Credential ID 21314e68-c12d-4078-8653-b70a1a6010d0</div>
+</div>
+</div>
+<!-- Certification 2 -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover bg-surface-container-lowest flex flex-row gap-md items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-brand-navy rounded flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform duration-300"><img alt="Google Logo" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9XnALpObFAWYJku3dkHDIKWb9TCSa6t1pBqDfciTxmmXObdlGTljXiuk0u14D2AXBaRNRkxY_rsKaLLwnwHfdc3uRslAV5-pE4sRKnXxs5POLmFxU4gCu0WlpKDNMRbsEnW9hDbIjhuYiZFPbGm5JNzg2fhhrKRJ5QFIXx6Fv0UbGE2wpOP4NWuPsaVi192m4yeILGTEloiOJK3wNbPtBNyHviSwT4pbYmG4iWB7vo8pPE9benc008BLVJclOsn9rfHw"/></div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-body-md font-bold text-primary mb-xs">Google IT Support</h4>
+<div class="text-text-secondary font-label-md text-label-sm">Google</div>
+<div class="text-text-secondary font-label-sm text-label-sm">Issued July 2026</div>
+<div class="text-text-secondary font-label-sm text-label-sm mt-1 opacity-70">Credential ID 0WVA7ZSS8VC6</div>
+</div>
+</div>
+<!-- Certification 3 -->
+<div class="bg-surface border border-border-subtle rounded-lg p-lg card-hover bg-surface-container-lowest flex flex-row gap-md items-start">
+<div class="flex-shrink-0 w-12 h-12 bg-brand-navy rounded flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform duration-300"><img alt="BNSP Logo" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVV3h9IE6yqhV-TThRu0_fnjhl29vx0lxedDMzkdBXXKGO40uSTHmrlbG3E-qM5-9MI05VfNea17f67XyNQE67wuaLaIUwEhpaNvvSLXV6yKg7Inh19g-sElyqCxv5P71Lp7815UjdjxQ4Z1zm9HoqOe2kR45R9xGiAevDhzTrS9ZXzmNf7qHhDl5zVXz4PDFtRVz1ZovH52y6BdLaXdtLxDW9nJT23Zp5_pfb6FX9zxtd8PTe38grTIKDezRfiwP2Tog"/></div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-body-md font-bold text-primary mb-xs">Certified Radio RF Planner - BNSP</h4>
+<div class="text-text-secondary font-label-md text-label-sm">LSP Telekomunikasi Digital Indonesia</div>
+<div class="text-text-secondary font-label-sm text-label-sm">Issued September 2024</div>
+<div class="text-text-secondary font-label-sm text-label-sm mt-1 opacity-70">Credential ID BNSP-RF-2024-001</div>
+</div>
+</div></div><div class="mt-lg flex justify-center"><a class="flex items-center gap-2 text-brand-teal font-medium hover:text-primary transition-colors font-label-md text-label-md hover:scale-105 duration-300" href="#">View all certificates on Google Drive <span class="material-symbols-outlined" style="font-size: 18px;">open_in_new</span></a></div></section><section class="mb-xxl fade-in-up" id="badges"><h3 class="font-headline-lg text-headline-lg text-primary mb-xl flex items-center gap-md mb-lg"><span class="w-8 h-1 bg-brand-teal"></span> Professional Badges</h3><div class="flex gap-lg overflow-x-auto pb-lg snap-x smooth-scroll-container"><div class="flex-shrink-0 snap-center flex flex-col items-center gap-sm w-[160px] badge-tilt cursor-pointer"><div class="w-24 h-24 rounded-full bg-surface-container border-2 border-brand-teal flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-300"><span class="material-symbols-outlined text-brand-teal" style="font-size: 48px;">wifi</span></div><span class="text-center font-label-md text-label-md text-primary font-medium">Enterprise Wireless</span></div><div class="flex-shrink-0 snap-center flex flex-col items-center gap-sm w-[160px] badge-tilt cursor-pointer"><div class="w-24 h-24 rounded-full bg-surface-container border-2 border-brand-teal flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-300"><span class="material-symbols-outlined text-brand-teal" style="font-size: 48px;">security</span></div><span class="text-center font-label-md text-label-md text-primary font-medium">Network Security</span></div><div class="flex-shrink-0 snap-center flex flex-col items-center gap-sm w-[160px] badge-tilt cursor-pointer"><div class="w-24 h-24 rounded-full bg-surface-container border-2 border-brand-teal flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-300"><span class="material-symbols-outlined text-brand-teal" style="font-size: 48px;">cloud</span></div><span class="text-center font-label-md text-label-md text-primary font-medium">Cloud Support</span></div><div class="flex-shrink-0 snap-center flex flex-col items-center gap-sm w-[160px] badge-tilt cursor-pointer"><div class="w-24 h-24 rounded-full bg-surface-container border-2 border-brand-teal flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-300"><span class="material-symbols-outlined text-brand-teal" style="font-size: 48px;">settings_ethernet</span></div><span class="text-center font-label-md text-label-md text-primary font-medium">Routing &amp; Switching</span></div><div class="flex-shrink-0 snap-center flex flex-col items-center gap-sm w-[160px] badge-tilt cursor-pointer"><div class="w-24 h-24 rounded-full bg-surface-container border-2 border-brand-teal flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-300"><span class="material-symbols-outlined text-brand-teal" style="font-size: 48px;">monitoring</span></div><span class="text-center font-label-md text-label-md text-primary font-medium">NOC Operations</span></div></div></section><footer class="w-full py-xl px-6 md:px-8 flex flex-col md:flex-row justify-between items-center max-w-[1440px] mx-auto bg-surface-container-low border-t border-border-subtle mt-xxl fade-in-up">
+<div class="font-display text-body-md font-bold text-primary mb-md md:mb-0 hover:text-brand-teal transition-colors duration-300 cursor-default">
+                © 2024 Network Engineer Portfolio. Built for Operational Stability.
+            </div>
+<div class="flex gap-lg"><a class="flex items-center gap-xs text-text-secondary hover:text-primary transition-all duration-300 font-label-sm text-label-sm opacity-80 hover:opacity-100 hover:-translate-y-1" href="#"><span class="material-symbols-outlined" style="font-size: 18px; color: rgb(26, 54, 93);">link</span>LinkedIn</a><a class="flex items-center gap-xs text-text-secondary hover:text-primary transition-all duration-300 font-label-sm text-label-sm opacity-80 hover:opacity-100 hover:-translate-y-1" href="#"><span class="material-symbols-outlined" style="font-size: 18px; color: rgb(26, 54, 93);">mail</span>Email</a><a class="flex items-center gap-xs text-text-secondary hover:text-primary transition-all duration-300 font-label-sm text-label-sm opacity-80 hover:opacity-100 hover:-translate-y-1" href="#"><span class="material-symbols-outlined" style="font-size: 18px; color: rgb(26, 54, 93);">code</span>GitHub</a></div>
+</footer>
+</main>
+<script>
+        // Intersection Observer for scroll animations with threshold adjustment
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15 // Slightly higher threshold for better timing
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        // Optional: unobserve after showing to only animate once per load
+                        // observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all elements with fade-in-up class
+            document.querySelectorAll('.fade-in-up').forEach((el) => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body></html>
