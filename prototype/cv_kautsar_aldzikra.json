@@ -1,84 +1,97 @@
 {
   "header": {
     "full_name": "Kautsar Aldzikra Harlan",
-    "location": "Cakung, East Jakarta",
-    "phone": "+6289663940508",
-    "email": "kautsar.al.dzikra.harlan.kerja@gmail.com",
+    "location": "Cakung, East Jakarta, Indonesia",
+    "phone": "+62 896-6394-0508",
+    "email": "kautsardz.kerja@gmail.com",
     "linkedin": "https://linkedin.com/in/kautsar-aldzikra-harlan"
   },
-  "summary": "Telecommunication Engineering graduate with experience in Network Monitoring, VSAT Operations, LAN Troubleshooting, Linux Server Administration, MikroTik Configuration, Incident Analysis, Technical Support, and Operational Monitoring. Strong analytical and problem-solving skills developed through telecommunication internships, homelab projects, and business operations management. Seeking opportunities as Network Operations Center (NOC), IT Support, or Network Support Engineer.",
+  "summary": "Telecommunication Engineering graduate with hands-on experience in network troubleshooting, MikroTik configuration, VSAT operations, LAN/WLAN deployment, Linux administration, and IT technical support. Experienced in supporting VSAT field operations, antenna alignment and troubleshooting, basic RF signal analysis, network device configuration, and small-office IT infrastructure. Practical exposure to MikroTik RouterOS, Huawei networking devices, Ubuntu Linux, Wireshark, Nmap, VMware, and network security fundamentals. Seeking opportunities in Network Operations Center (NOC), Network Support, Junior Network Engineering, or IT roles.",
   "target_roles": [
     "Network Operations Center (NOC)",
-    "IT Support",
-    "Network Support Engineer"
+    "Network Support",
+    "Junior Network Engineering",
+    "IT Support"
   ],
   "technical_skills": {
-    "networking": [
-      "Network Monitoring",
-      "VSAT Operation",
-      "LAN Troubleshooting",
-      "Routing & Switching",
+    "networking_infrastructure": [
+      "TCP/IP",
+      "IPv4 Addressing & Subnetting",
       "VLAN",
       "DHCP",
       "NAT",
+      "Static Routing",
       "Firewall",
-      "QoS",
-      "VPN",
-      "TCP/IP"
+      "QoS/Bandwidth Management",
+      "Wireless Configuration",
+      "LAN/WLAN Troubleshooting"
+    ],
+    "telecommunication_rf": [
+      "VSAT Operations",
+      "Antenna Pointing",
+      "Polarization",
+      "Azimuth & Elevation Adjustment",
+      "Spectrum Analysis",
+      "SNR Monitoring",
+      "LNA Maintenance",
+      "VSAT Modem/IP Configuration"
     ],
     "systems_and_tools": [
-      "MikroTik (Winbox)",
-      "Linux (Ubuntu)",
+      "Ubuntu Linux",
       "SSH",
-      "PuTTY",
+      "VMware",
+      "VirtualBox",
+      "Winbox",
       "Wireshark",
-      "Basic Router Configuration",
-      "Excel/Office"
+      "Nmap",
+      "PuTTY",
+      "Bash"
     ],
-    "technical_support": [
-      "CCTV Installation & Configuration",
+    "it_support": [
       "Hardware & Software Troubleshooting",
-      "Remote Support"
+      "CCTV Installation",
+      "Wireless Access Point",
+      "POS/Computer Support",
+      "Printer Troubleshooting"
     ]
   },
   "experience": [
     {
       "company": "CV Mandha Sejati",
       "role": "Operations Support",
-      "business_unit": "F&B Retail Business (Madha Geprek)",
       "period": "January 2025 - July 2026",
       "is_current": false,
       "responsibilities": [
-        "Coordinated daily outlet operations and workforce activities to ensure smooth business continuity during high-demand periods.",
-        "Developed Microsoft Excel-based reporting tools and dashboards to automate revenue calculations and monitor outlet performance.",
-        "Managed inventory planning, procurement, and operational reporting to support business performance and cost control.",
-        "Assisted in installing and configuring CCTV systems, Wi-Fi routers, and provided first-level troubleshooting for computers and network connectivity.",
-        "Collaborated with the business owner to improve operational workflows and implement process improvements across business operations."
+        "Managed daily operational and technical support activities for a retail food outlet, including inventory, operational reporting, equipment, and basic IT infrastructure.",
+        "Developed a Microsoft Excel based revenue calculation and reporting system that replaced manual calculations and improved the efficiency and accuracy of daily reporting for the business owner.",
+        "Installed and configured 6 TP-Link Tapo CCTV cameras across multiple outlets using Wi-Fi and PoE connectivity, including device onboarding and centralized monitoring.",
+        "Configured Huawei BE3 Wi-Fi 7 router for an office environment, including wireless settings, device whitelisting, and basic QoS/bandwidth management.",
+        "Performed first-level troubleshooting for cashier computers, printers, network connectivity, and other basic hardware/software issues."
       ]
     },
     {
       "company": "PT Pasifik Satelit Nusantara (PSN)",
-      "role": "Satellite Control Center Intern",
+      "role": "SSC & VSAT Operations Intern",
       "period": "August 2023 - December 2023",
       "is_current": false,
       "responsibilities": [
-        "Monitored real-time VSAT network performance and satellite connectivity to maintain service availability in accordance with SLA targets.",
-        "Performed Tracking, Telemetry & Command (TT&C) operations on Mobile VSAT systems to ensure stable satellite communications.",
-        "Conducted first-level incident analysis and troubleshooting before escalating complex issues to Tier-2 Network Engineers.",
-        "Assisted in developing Standard Operating Procedures (SOP) for LNA replacement, improving maintenance efficiency by 20%.",
-        "Supported engineering teams in planning and deploying new VSAT antenna sites in Cikarang and Medan."
+        "Assisted senior technicians in the installation, configuration, maintenance, and troubleshooting of UBIQU VSAT systems at field sites.",
+        "Performed antenna alignment checks including polarization, azimuth, and elevation according to site requirements before proceeding with signal verification.",
+        "Performed VSAT modem/IP configuration using predefined templates and operational SOPs, including basic IP addressing, subnet, gateway, routing, VLAN, NAT, and QoS configurations.",
+        "Supported troubleshooting by checking operating frequency and SNR, with approximately >8 dB used as a reference under clear-weather conditions based on operational procedures.",
+        "Assisted in updating the LNA replacement procedure and work schedule under mentor supervision, helping simplify the maintenance workflow."
       ]
     },
     {
-      "company": "PT Telekomunikasi Seluler (Telkomsel)",
+      "company": "PT Telekomunikasi Seluler (TELKOMSEL)",
       "role": "Network Engineer Intern",
       "period": "January 2020 - February 2020",
       "is_current": false,
       "responsibilities": [
-        "Assisted in network deployment, internet installation, and basic network topology implementation for commercial office environments.",
-        "Installed and configured MikroTik routers and network switches to support LAN connectivity and network performance.",
-        "Performed network monitoring and first-level troubleshooting to identify and resolve connectivity issues.",
-        "Supported drive test activities and assisted in analyzing cellular signal quality and network performance."
+        "Assisted senior technicians in deploying internet and LAN infrastructure for a new commercial office environment. Supported installation and placement of ONT, modem, router, and network switches.",
+        "Assisted in configuring MikroTik RouterBoard and Huawei EchoLife HG8145V5 equipment.",
+        "Performed RJ45 cable termination and single-mode fiber optic splicing.",
+        "Conducted basic network testing using Wireshark and Nmap to verify connectivity."
       ]
     }
   ],
@@ -96,22 +109,22 @@
   ],
   "certifications": [
     {
-      "name": "Network Addressing and Basic Troubleshooting",
-      "issuer": "Cisco Networking Academy",
-      "issue_date": "2026-07-26",
-      "expiry_date": null
-    },
-    {
-      "name": "Google IT Support",
-      "issuer": "Google Career Certificates by Coursera",
-      "issue_date": "2026-07-23",
-      "expiry_date": null
-    },
-    {
-      "name": "Certified Radio RF Planner - BNSP",
+      "name": "Certified Radio RF Planner",
       "issuer": "LSP Telekomunikasi Digital Indonesia",
       "issue_date": "2024-09-01",
       "expiry_date": "2027-09-01"
+    },
+    {
+      "name": "Google IT Support Certificate",
+      "issuer": "Google Career Certificates",
+      "issue_date": "2026-07-01",
+      "expiry_date": null
+    },
+    {
+      "name": "Network Addressing and Basic Troubleshooting",
+      "issuer": "Cisco Networking Academy",
+      "issue_date": "2026-07-01",
+      "expiry_date": null
     }
   ],
   "projects": [
@@ -119,22 +132,26 @@
       "title": "Linux VPS & Network Administration",
       "tech_stack": [
         "Ubuntu Server",
+        "VMware",
         "SSH",
-        "Winbox",
-        "Port Forwarding",
         "Firewall",
-        "Service Monitoring"
+        "Bash",
+        "Ngrok"
       ],
-      "description": "Deployed and managed an Ubuntu-based VPS for remote administration, network service monitoring, and connectivity troubleshooting. Configured SSH remote access, firewall rules, and port forwarding to support remote management."
+      "description": "Deployed and administered an Ubuntu-based VPS for remote system and networking practice. Configured SSH remote access, Linux users, packages, firewall rules, and basic server services and used Ngrok for temporary external access without directly exposing VPS ports to the public. Practiced web server deployment and Linux command-line administration."
     },
     {
-      "title": "Network Homelab & Simulation",
+      "title": "MikroTik Network Homelab",
       "tech_stack": [
-        "MikroTik",
-        "Cisco Packet Tracer",
-        "VMware"
+        "RouterOS",
+        "VLAN",
+        "DHCP",
+        "NAT",
+        "Firewall",
+        "Static Routing",
+        "QoS"
       ],
-      "description": "Built networking lab environments to practice VLAN, DHCP, NAT, subnetting, static routing, and LAN troubleshooting. Simulated network scenarios to strengthen troubleshooting and network configuration skills."
+      "description": "Built a small-office network simulation using a physical MikroTik RB750R2 hEX Lite router. Configured IP address, DHCP, NAT, firewall rules, static routing, VLANs, QoS, and basic wireless settings. Practiced network troubleshooting, subnetting, and connectivity verification through a segmented LAN environment."
     }
   ]
 }

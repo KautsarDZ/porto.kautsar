@@ -21,9 +21,4 @@ npm run build
 
 Edit `src/data/portfolio.ts` to replace the placeholder name, biography, skills, projects, experience, email, and social links. The page renders its content from that single file.
 
-## Deploy to Vercel
 
-1. Push this repository to GitHub, GitLab, or Bitbucket.
-2. Import it at [Vercel](https://vercel.com/new).
-3. Keep the detected Vite settings: build command `npm run build`, output directory `dist`.
-4. Deploy. No backend or environment variables are required.
