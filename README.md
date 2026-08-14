@@ -108,8 +108,5 @@ Remove-Item -Recurse -Force node_modules, package-lock.json
 npm install
 ```
 
-## Catatan
-
-Repositori ini cocok digunakan sebagai portfolio pribadi atau template landing page yang bisa disesuaikan cepat lewat file `src/data/portfolio.ts` tanpa harus mengubah struktur utama aplikasi.
 
 
